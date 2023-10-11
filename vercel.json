@@ -1,0 +1,24 @@
+{
+    "routes": [
+        {
+            "src": "/json/stats.json",
+            "dest": "http://probe.mingwang.xyz:8080/json/stats.json"
+        },
+        {
+            "src": "/detail",
+            "dest": "http://probe.mingwang.xyz:8080/detail"
+        },
+        {
+            "src": "/map",
+            "dest": "http://probe.mingwang.xyz:8080/map"
+        },
+        {
+            "src": "/i",
+            "dest": "http://ip:端口/i"
+        },
+        {
+            "src": "/report",
+            "dest": "http://ip:端口/report"
+        }
+    ]
+}
