@@ -2,23 +2,23 @@
     "routes": [
         {
             "src": "/json/stats.json",
-            "dest": "https://probe.mingwang.xyz:8080/json/stats.json"
+            "dest": "http://probe.mingwang.xyz:8080/json/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "https://probe.mingwang.xyz:8080/detail"
+            "dest": "http://probe.mingwang.xyz:8080/detail"
         },
         {
             "src": "/map",
-            "dest": "https://probe.mingwang.xyz:8080/map"
+            "dest": "http://probe.mingwang.xyz:8080/map"
         },
         {
             "src": "/i",
-            "dest": "https://probe.mingwang.xyz:8080/i"
+            "dest": "http://probe.mingwang.xyz:8080/i"
         },
         {
             "src": "/report",
-            "dest": "https://probe.mingwang.xyz:8080/report"
+            "dest": "http://probe.mingwang.xyz:8080/report"
         }
     ]
 }
